@@ -1,9 +1,9 @@
-_id: req_c135a5db85154132bb843d3e4748c98a
+_id: req_e32c62d74d154c34b569450558d0cb53
 type: Request
-parentId: fld_03680c58ac824146aa6628c3c93ded40
-modified: 1651725677228
-created: 1651449797424
-url: "{{ _.url }}user-register"
+parentId: fld_cf843086be4047baa62ada44d6fcaaae
+modified: 1651725984468
+created: 1651725597480
+url: "{{ _.url }}employee-register"
 name: Registro
 description: ""
 method: POST
@@ -16,20 +16,20 @@ body:
     	"phone":"121212",
     	"type_document_id":"1",
     	"document_number":"34343",
-    	"rol_id":1,
     	"gender_id":1,
     	"email":"almendralesluifer@gmail.com",
-    	"password":"12345678"
+    	"birth_date":"1994-10-11",
+    	"address":"Calle 1"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_d3851930ec764517a9adba8b46356cbe
+    id: pair_213ab3210bcd45c587a06acbecdd1694
 authentication:
   type: bearer
-  token: 1|PpxsipM8jgY1krjYsrTxNKHxhdgKDOK9ujpT0e0i
-metaSortKey: -1651449797424
+  token: 1|nW92NPsY9dDQ23wVm4WCZTHOEZm9mNdBAPw2Q61k
+metaSortKey: -1651725597480
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
