@@ -1,0 +1,32 @@
+_id: req_80ad43223bef4ee082728e269d876c93
+type: Request
+parentId: fld_03680c58ac824146aa6628c3c93ded40
+modified: 1651723736018
+created: 1651448731656
+url: "{{ _.url_pro }}user-login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"admin@admin.com",
+    	"password":"password"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6b0954236ce34a6cbee61e97a3a0583d
+authentication:
+  type: bearer
+  token: 1|PpxsipM8jgY1krjYsrTxNKHxhdgKDOK9ujpT0e0i
+metaSortKey: -1651448731656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

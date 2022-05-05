@@ -1,0 +1,39 @@
+_id: req_c135a5db85154132bb843d3e4748c98a
+type: Request
+parentId: fld_03680c58ac824146aa6628c3c93ded40
+modified: 1651450799648
+created: 1651449797424
+url: "{{ _.url }}user-register"
+name: Registro
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Luis",
+    	"last_name":"Almendrales",
+    	"phone":"121212",
+    	"type_document_id":"1",
+    	"document_number":"34343",
+    	"rol_id":1,
+    	"gender_id":1,
+    	"email":"almendralesluifer@gmail.com",
+    	"password":"12345678"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d3851930ec764517a9adba8b46356cbe
+authentication:
+  type: bearer
+  token: 1|PpxsipM8jgY1krjYsrTxNKHxhdgKDOK9ujpT0e0i
+metaSortKey: -1651449797424
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

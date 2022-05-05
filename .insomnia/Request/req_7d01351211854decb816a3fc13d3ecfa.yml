@@ -1,0 +1,23 @@
+_id: req_7d01351211854decb816a3fc13d3ecfa
+type: Request
+parentId: fld_03680c58ac824146aa6628c3c93ded40
+modified: 1651451189817
+created: 1651451152435
+url: "{{ _.url }}user-list"
+name: Listar
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: 1|PpxsipM8jgY1krjYsrTxNKHxhdgKDOK9ujpT0e0i
+metaSortKey: -1651451152435
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
