@@ -1,10 +1,10 @@
-_id: req_7d01351211854decb816a3fc13d3ecfa
+_id: req_c4165c5b1172426285f93de627447abd
 type: Request
-parentId: fld_03680c58ac824146aa6628c3c93ded40
-modified: 1651726308185
-created: 1651451152435
-url: "{{ _.url_pro }}user-list"
-name: Listar
+parentId: fld_cf843086be4047baa62ada44d6fcaaae
+modified: 1652067474997
+created: 1652067243925
+url: "{{ _.url }}employee-detail/1"
+name: Tetalle
 description: ""
 method: GET
 body: {}
@@ -12,8 +12,8 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: 1|PpxsipM8jgY1krjYsrTxNKHxhdgKDOK9ujpT0e0i
-metaSortKey: -1651451152435
+  token: 1|tSf0yxjI445Sz0nLXkkoog6J1yNK1AvZZEwxQFDl
+metaSortKey: -1652067243925
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

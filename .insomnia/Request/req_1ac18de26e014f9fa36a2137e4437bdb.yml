@@ -1,0 +1,50 @@
+_id: req_1ac18de26e014f9fa36a2137e4437bdb
+type: Request
+parentId: fld_cf843086be4047baa62ada44d6fcaaae
+modified: 1652152458845
+created: 1652048231080
+url: "{{ _.url }}employee-register-perfil"
+name: Registrar perfil
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"employee_id": 1,
+    	"city_id": 1,
+    	"address": "calle 12",
+    	"housing_type_id": 1,
+    	"contact_emergency": "Tu",
+    	"kindred_id": 1,
+    	"phone_contact": "121212",
+    	"education_level_id": 1,
+    	"dependents": 2,
+    	"number_of_children": 1,
+    	"use_free_time": "nada",
+    	"position_id": 1,
+    	"type_contract_id": 1,
+    	"contract_date": "2022-03-10",
+    	"average_income": 1000000,
+    	"seniority_range": "1 a",
+    	"social_security_id": 1,
+    	"marital_status_id":1,
+    	"arl_id":1,
+    	"pension_fund_id":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7bb5ba8d559f43faa04195ca2790c2c3
+authentication:
+  type: bearer
+  token: 11|4cQbId8LEPZjkG9umE1166fV1zIe5BkHEmEXqsEw
+metaSortKey: -1652048231080
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

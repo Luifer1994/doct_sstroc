@@ -1,7 +1,7 @@
 _id: req_e32c62d74d154c34b569450558d0cb53
 type: Request
 parentId: fld_cf843086be4047baa62ada44d6fcaaae
-modified: 1651725984468
+modified: 1652152411079
 created: 1651725597480
 url: "{{ _.url }}employee-register"
 name: Registro
@@ -18,8 +18,7 @@ body:
     	"document_number":"34343",
     	"gender_id":1,
     	"email":"almendralesluifer@gmail.com",
-    	"birth_date":"1994-10-11",
-    	"address":"Calle 1"
+    	"birth_date":"1994-10-11"
     }
 parameters: []
 headers:
@@ -28,7 +27,7 @@ headers:
     id: pair_213ab3210bcd45c587a06acbecdd1694
 authentication:
   type: bearer
-  token: 1|nW92NPsY9dDQ23wVm4WCZTHOEZm9mNdBAPw2Q61k
+  token: 1|DeuYZvPjNkCd3NMXIC2KX29l7TgGk2JCsYWmfdT3
 metaSortKey: -1651725597480
 isPrivate: false
 settingStoreCookies: true
