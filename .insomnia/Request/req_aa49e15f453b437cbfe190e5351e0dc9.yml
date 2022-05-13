@@ -1,10 +1,10 @@
-_id: req_c4165c5b1172426285f93de627447abd
+_id: req_aa49e15f453b437cbfe190e5351e0dc9
 type: Request
 parentId: fld_cf843086be4047baa62ada44d6fcaaae
-modified: 1652401931482
-created: 1652067243925
+modified: 1652402007428
+created: 1652357854412
 url: "{{ _.url }}employee-detail/1"
-name: Tetalle
+name: Detalle
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: 4|8RqjEhGcmzWQRrQbQSq98CayMn6XeH7VsdxA7dbx
-metaSortKey: -1652067243925
+metaSortKey: -1652357854412
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

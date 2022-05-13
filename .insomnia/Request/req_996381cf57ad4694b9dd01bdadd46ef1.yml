@@ -1,10 +1,10 @@
-_id: req_c4165c5b1172426285f93de627447abd
+_id: req_996381cf57ad4694b9dd01bdadd46ef1
 type: Request
-parentId: fld_cf843086be4047baa62ada44d6fcaaae
-modified: 1652401931482
-created: 1652067243925
-url: "{{ _.url }}employee-detail/1"
-name: Tetalle
+parentId: fld_d2233e7963f74dcc8f0759785e97eceb
+modified: 1652319239296
+created: 1652309308101
+url: "{{ _.url }}survey-detail/1"
+name: Detalles
 description: ""
 method: GET
 body: {}
@@ -12,8 +12,8 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: 4|8RqjEhGcmzWQRrQbQSq98CayMn6XeH7VsdxA7dbx
-metaSortKey: -1652067243925
+  token: 1|tlZVvJC0gQvwgbSItp3oJNJv7Hj4zIf6L8JnApu5
+metaSortKey: -1652309308101
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

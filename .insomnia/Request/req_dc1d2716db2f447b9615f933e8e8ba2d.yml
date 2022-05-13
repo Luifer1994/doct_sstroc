@@ -1,0 +1,73 @@
+_id: req_dc1d2716db2f447b9615f933e8e8ba2d
+type: Request
+parentId: fld_d2233e7963f74dcc8f0759785e97eceb
+modified: 1652354169675
+created: 1652319206430
+url: "{{ _.url }}survey/1/add-responses"
+name: Responder
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"employee_id": 1,
+    	"responses": [
+    		{
+    			"question_id": 1,
+    			"response": null,
+    			"response_id": 3
+    		},
+    		{
+    			"question_id": 2,
+    			"response": "Epatitis",
+    			"response_id": null
+    		},
+    		{
+    			"question_id": 3,
+    			"response": null,
+    			"response_id": 3
+    		},
+    		{
+    			"question_id": 4,
+    			"response": 2,
+    			"response_id": null
+    		},
+    		{
+    			"question_id": 5,
+    			"response": "ok",
+    			"response_id": 2
+    		},
+    		{
+    			"question_id": 6,
+    			"response": "ok",
+    			"response_id": 1
+    		},
+    		{
+    			"question_id": 7,
+    			"response": "ok",
+    			"response_id": 1
+    		},
+    		{
+    			"question_id": 9,
+    			"response": "1 vez por semana",
+    			"response_id": null
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2d4362ae83c940a38a019aa6176d58d1
+authentication:
+  type: bearer
+  token: 2|Q9qmIDc0TJV7DClBhW2i6WHTcxtNVhFCx9FPQ9pY
+metaSortKey: -1652319206430
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
