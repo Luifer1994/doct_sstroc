@@ -1,7 +1,7 @@
 _id: req_aa49e15f453b437cbfe190e5351e0dc9
 type: Request
 parentId: fld_cf843086be4047baa62ada44d6fcaaae
-modified: 1652402007428
+modified: 1652630124640
 created: 1652357854412
 url: "{{ _.url }}employee-detail/1"
 name: Detalle
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: 4|8RqjEhGcmzWQRrQbQSq98CayMn6XeH7VsdxA7dbx
+  token: 6|Na6ZugSXM5dKyxRQDWdUdVeb04c3HnvOGFzf1ZY1
 metaSortKey: -1652357854412
 isPrivate: false
 settingStoreCookies: true

@@ -1,12 +1,12 @@
-_id: req_e32c62d74d154c34b569450558d0cb53
+_id: req_ddae8b89b9db414b8420c4782513e964
 type: Request
 parentId: fld_cf843086be4047baa62ada44d6fcaaae
-modified: 1652629614991
-created: 1651725597480
-url: "{{ _.url }}employee-register"
-name: Registro
+modified: 1652630816711
+created: 1652627222813
+url: "{{ _.url }}employee-update/1"
+name: Update
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
@@ -17,18 +17,18 @@ body:
     	"type_document_id":"1",
     	"document_number":"34343",
     	"gender_id":1,
-    	"email":"almendralesluifer@gmail.com",
+    	"email":"faby@hotmail.com",
     	"birth_date":"1994-10-11"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_213ab3210bcd45c587a06acbecdd1694
+    id: pair_d246c88670884191a21b51dcb1a99180
 authentication:
   type: bearer
-  token: 4|8RqjEhGcmzWQRrQbQSq98CayMn6XeH7VsdxA7dbx
-metaSortKey: -1651725597480
+  token: 6|Na6ZugSXM5dKyxRQDWdUdVeb04c3HnvOGFzf1ZY1
+metaSortKey: -1652627222813
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
