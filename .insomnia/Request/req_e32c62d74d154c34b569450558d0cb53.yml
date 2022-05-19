@@ -1,7 +1,7 @@
 _id: req_e32c62d74d154c34b569450558d0cb53
 type: Request
 parentId: fld_cf843086be4047baa62ada44d6fcaaae
-modified: 1652629614991
+modified: 1652841268406
 created: 1651725597480
 url: "{{ _.url }}employee-register"
 name: Registro
@@ -27,7 +27,7 @@ headers:
     id: pair_213ab3210bcd45c587a06acbecdd1694
 authentication:
   type: bearer
-  token: 4|8RqjEhGcmzWQRrQbQSq98CayMn6XeH7VsdxA7dbx
+  token: 1|zPMnnB1mKgMJahTnOaT64Y0kO8owPSP3d4qGSSkx
 metaSortKey: -1651725597480
 isPrivate: false
 settingStoreCookies: true

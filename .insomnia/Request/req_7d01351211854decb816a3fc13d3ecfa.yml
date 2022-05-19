@@ -1,7 +1,7 @@
 _id: req_7d01351211854decb816a3fc13d3ecfa
 type: Request
 parentId: fld_03680c58ac824146aa6628c3c93ded40
-modified: 1652632506103
+modified: 1652879288106
 created: 1651451152435
 url: "{{ _.url }}user-list"
 name: Listar
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: 6|Na6ZugSXM5dKyxRQDWdUdVeb04c3HnvOGFzf1ZY1
+  token: 4|G0JRcVAr6nXyypqZWHIwCtFcZnHboGun0kgWUPWl
 metaSortKey: -1651451152435
 isPrivate: false
 settingStoreCookies: true

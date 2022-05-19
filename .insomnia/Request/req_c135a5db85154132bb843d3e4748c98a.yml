@@ -1,7 +1,7 @@
 _id: req_c135a5db85154132bb843d3e4748c98a
 type: Request
 parentId: fld_03680c58ac824146aa6628c3c93ded40
-modified: 1652642244450
+modified: 1652879254384
 created: 1651449797424
 url: "{{ _.url }}user-register"
 name: Registro
@@ -11,14 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Luis",
-    	"last_name":"Almendrales",
-    	"phone":"121212",
-    	"type_document_id":"1",
-    	"document_number":"34343",
+    	"employee_id":1,
     	"rol_id":1,
-    	"gender_id":1,
-    	"email":"almendralesluifer@gmail.com",
     	"password":"12345678"
     }
 parameters: []
@@ -28,7 +22,7 @@ headers:
     id: pair_d3851930ec764517a9adba8b46356cbe
 authentication:
   type: bearer
-  token: 1|PpxsipM8jgY1krjYsrTxNKHxhdgKDOK9ujpT0e0i
+  token: 1|zPMnnB1mKgMJahTnOaT64Y0kO8owPSP3d4qGSSkx
 metaSortKey: -1651449797424
 isPrivate: false
 settingStoreCookies: true

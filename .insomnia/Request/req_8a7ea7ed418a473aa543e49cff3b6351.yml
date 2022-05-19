@@ -1,10 +1,10 @@
-_id: req_600758c498394ee9a6e2dbe20577f988
+_id: req_8a7ea7ed418a473aa543e49cff3b6351
 type: Request
-parentId: fld_cf843086be4047baa62ada44d6fcaaae
-modified: 1652844302938
-created: 1651725969212
-url: "{{ _.url }}employee-list"
-name: Listar
+parentId: fld_2eb06370747345f69e1c1dc4b145c330
+modified: 1652931525709
+created: 1652930810338
+url: "{{ _.url }}finding-detail/1"
+name: Detalles
 description: ""
 method: GET
 body: {}
@@ -12,8 +12,8 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: 3|kU5FvaOztmai5SGW4B2BgaVy80L091qKQz9Ad7iG
-metaSortKey: -1651725969212
+  token: 2|3Xfeb9m8mI0cq4paGLKBCTlMHWByLfwQI6pnp759
+metaSortKey: -1652930810338
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
