@@ -1,9 +1,9 @@
 _id: req_80ad43223bef4ee082728e269d876c93
 type: Request
 parentId: fld_03680c58ac824146aa6628c3c93ded40
-modified: 1652930397765
+modified: 1653338681945
 created: 1651448731656
-url: "{{ _.url }}user-login"
+url: "{{ _.url_pro }}user-login"
 name: Login
 description: ""
 method: POST
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"email":"admin@admin.com",
-    	"password":"password"
+    	"password":121212
     }
 parameters: []
 headers:

@@ -1,9 +1,9 @@
 _id: req_e32c62d74d154c34b569450558d0cb53
 type: Request
 parentId: fld_cf843086be4047baa62ada44d6fcaaae
-modified: 1652841268406
+modified: 1653097195148
 created: 1651725597480
-url: "{{ _.url }}employee-register"
+url: "{{ _.url_pro }}employee-register"
 name: Registro
 description: ""
 method: POST
@@ -27,7 +27,7 @@ headers:
     id: pair_213ab3210bcd45c587a06acbecdd1694
 authentication:
   type: bearer
-  token: 1|zPMnnB1mKgMJahTnOaT64Y0kO8owPSP3d4qGSSkx
+  token: 28|N113uPchhV5OfVtlaiiIKtUiNl9VslLHOVHBxbpd
 metaSortKey: -1651725597480
 isPrivate: false
 settingStoreCookies: true

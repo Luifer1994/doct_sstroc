@@ -1,9 +1,9 @@
 _id: req_b314e19efcc84afa856a06387fddd459
 type: Request
 parentId: fld_2eb06370747345f69e1c1dc4b145c330
-modified: 1652930599308
+modified: 1653194823816
 created: 1652668817713
-url: "{{ _.url }}finding-list"
+url: "{{ _.url_pro }}finding-list"
 name: Listar
 description: ""
 method: GET
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: 2|3Xfeb9m8mI0cq4paGLKBCTlMHWByLfwQI6pnp759
+  token: 21|kiM0JYBkmjv6No72RghoRzzOAPoVRnCs6nlFnlIu
 metaSortKey: -1652668817713
 isPrivate: false
 settingStoreCookies: true

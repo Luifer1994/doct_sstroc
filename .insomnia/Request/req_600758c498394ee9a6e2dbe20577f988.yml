@@ -1,9 +1,9 @@
 _id: req_600758c498394ee9a6e2dbe20577f988
 type: Request
 parentId: fld_cf843086be4047baa62ada44d6fcaaae
-modified: 1652844302938
+modified: 1653097695971
 created: 1651725969212
-url: "{{ _.url }}employee-list"
+url: http://localhost:8000/api/employee-list
 name: Listar
 description: ""
 method: GET
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: 3|kU5FvaOztmai5SGW4B2BgaVy80L091qKQz9Ad7iG
+  token: 19|pCNxJSok2zDR56GF0D7dEv2SaQRsAnGpOE3pPTGj
 metaSortKey: -1651725969212
 isPrivate: false
 settingStoreCookies: true

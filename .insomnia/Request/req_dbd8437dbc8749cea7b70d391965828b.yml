@@ -1,7 +1,7 @@
 _id: req_dbd8437dbc8749cea7b70d391965828b
 type: Request
 parentId: fld_2eb06370747345f69e1c1dc4b145c330
-modified: 1652930819478
+modified: 1653102140112
 created: 1652665630206
 url: "{{ _.url }}finding-register"
 name: Registrar
@@ -23,8 +23,7 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /Users/luisalmendrales/Desktop/Captura de Pantalla 2022-05-14 a la(s)
-        4.07.46 p. m..png
+      fileName: C:\Users\57311\Downloads\aire-acondicionado-viejo.jpg
 parameters: []
 headers:
   - name: Content-Type
@@ -32,7 +31,7 @@ headers:
     id: pair_d7b852aac453491db12d49f7fe5a7194
 authentication:
   type: bearer
-  token: 2|3Xfeb9m8mI0cq4paGLKBCTlMHWByLfwQI6pnp759
+  token: 3|DyxU6DjNl4gcBUFrBSYsU1abJVWuxNYXE8ZfdkmV
 metaSortKey: -1652665630206
 isPrivate: false
 settingStoreCookies: true

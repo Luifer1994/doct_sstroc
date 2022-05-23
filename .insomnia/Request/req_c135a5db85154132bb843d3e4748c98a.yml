@@ -1,7 +1,7 @@
 _id: req_c135a5db85154132bb843d3e4748c98a
 type: Request
 parentId: fld_03680c58ac824146aa6628c3c93ded40
-modified: 1652879254384
+modified: 1653338655437
 created: 1651449797424
 url: "{{ _.url }}user-register"
 name: Registro
@@ -22,7 +22,7 @@ headers:
     id: pair_d3851930ec764517a9adba8b46356cbe
 authentication:
   type: bearer
-  token: 1|zPMnnB1mKgMJahTnOaT64Y0kO8owPSP3d4qGSSkx
+  token: 27|o1jSZPlTKt7a0SULkbH300q5AAb6pAhHRcOUKvW2
 metaSortKey: -1651449797424
 isPrivate: false
 settingStoreCookies: true

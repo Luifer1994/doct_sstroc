@@ -1,0 +1,21 @@
+_id: req_19934dfb89bb42ca8c22e9abc3328923
+type: Request
+parentId: fld_90b106b2cc23433fafbd8f75f444e0d2
+modified: 1653338723877
+created: 1653338717426
+url: "{{ _.url }}asasas"
+name: Listar pruebas
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653338717426
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
