@@ -1,37 +1,32 @@
 _id: req_dbd8437dbc8749cea7b70d391965828b
 type: Request
 parentId: fld_2eb06370747345f69e1c1dc4b145c330
-modified: 1653102140112
+modified: 1653397117540
 created: 1652665630206
 url: "{{ _.url }}finding-register"
 name: Registrar
 description: ""
 method: POST
 body:
-  mimeType: multipart/form-data
-  params:
-    - id: pair_88624db6b17f47dc9680033f8b833ac7
-      name: description
-      value: Ok
-      description: ""
-    - id: pair_b248b36755a44241bff66a1d07bbe897
-      name: area_id
-      value: "1"
-      description: ""
-    - id: pair_007c4280620a467da9ddb72a7954a56c
-      name: images[]
-      value: ""
-      description: ""
-      type: file
-      fileName: C:\Users\57311\Downloads\aire-acondicionado-viejo.jpg
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "asasas",
+    	"area_id": 1,
+    	"images": [
+    		{
+    			"url": "image.png"
+    		}
+    	]
+    }
 parameters: []
 headers:
   - name: Content-Type
-    value: multipart/form-data
+    value: application/json
     id: pair_d7b852aac453491db12d49f7fe5a7194
 authentication:
   type: bearer
-  token: 3|DyxU6DjNl4gcBUFrBSYsU1abJVWuxNYXE8ZfdkmV
+  token: 1|cxRhPBPG7h3r9F9wM3DBunTXVJmGwWu3Vnkt5rv6
 metaSortKey: -1652665630206
 isPrivate: false
 settingStoreCookies: true

@@ -1,38 +1,32 @@
 _id: req_187ab1ae637a4623b258ad5be39536c1
 type: Request
 parentId: fld_b79d8fb89fb94691826f872df728c786
-modified: 1653185963201
+modified: 1653539935638
 created: 1652929680217
 url: "{{ _.url }}tracing-register"
 name: Registrar
 description: ""
 method: POST
 body:
-  mimeType: multipart/form-data
-  params:
-    - id: pair_4864e7c5b2c54219bf26def344de9640
-      name: description
-      value: Prueba 1
-      description: ""
-    - id: pair_54fb15185caa4bd7b5f192dc9c01911b
-      name: finding_id
-      value: "1"
-      description: ""
-    - id: pair_722ab98b4fd143d0aa7f9a970b9dcfae
-      name: images[]
-      value: ""
-      description: ""
-      type: file
-      multiline: null
-      fileName: /Users/luisalmendrales/Desktop/aire-acondicionado-danado.jpeg
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "El campo description es obligatorio.",
+    	"finding_id": 1,
+    	"images": [
+    		{
+    			"url": "image.png"
+    		}
+    	]
+    }
 parameters: []
 headers:
   - name: Content-Type
-    value: multipart/form-data
+    value: application/json
     id: pair_811a9487ee0943789d583dac696d8913
 authentication:
   type: bearer
-  token: 2|3Xfeb9m8mI0cq4paGLKBCTlMHWByLfwQI6pnp759
+  token: 9|otaS62RoqCfgwhWKr8y6KD2sbkoGFiK2tUw7aofj
 metaSortKey: -1652929680217
 isPrivate: false
 settingStoreCookies: true

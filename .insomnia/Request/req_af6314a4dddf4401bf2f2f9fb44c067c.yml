@@ -1,19 +1,19 @@
-_id: req_8a7ea7ed418a473aa543e49cff3b6351
+_id: req_af6314a4dddf4401bf2f2f9fb44c067c
 type: Request
 parentId: fld_2eb06370747345f69e1c1dc4b145c330
-modified: 1653395905287
-created: 1652930810338
-url: "{{ _.url }}finding-detail/1"
-name: Detalles
+modified: 1653539555412
+created: 1653539295390
+url: "{{ _.url }}finding-closed/1"
+name: Cerrar
 description: ""
-method: GET
+method: PUT
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
-  token: 1|cxRhPBPG7h3r9F9wM3DBunTXVJmGwWu3Vnkt5rv6
-metaSortKey: -1652930810338
+  token: 8|8iRNUnX2GY8W10bglMyY4oGF4EfBOJfVzODo1jHk
+metaSortKey: -1653539295390
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
